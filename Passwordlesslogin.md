@@ -99,15 +99,14 @@ At line:1 char:1
    ndException
     + FullyQualifiedErrorId : CommandNotFoundException
 ```
-Restart your PowerShell and type client2:
-
-
+Restart your PowerShell and type client2
 
 Your profile should now work. Close all the PowerShell instances and reopen PowerShell. Now try to execute any one of the following commands:
-
+```
 personal
 client1
 client2
+```
 Wow we are now able to open the  server we created for our client by issuing a single word command ie 'client1'
 
 Note: You can always configure serverless login for a root user but using a root account for day-to-day activities is not recommended.
